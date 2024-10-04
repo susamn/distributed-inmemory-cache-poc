@@ -22,6 +22,8 @@ Due to the limited scope and time, there are a number of things left unimplement
 than hogging the master server, the writes can go via master.
 - I have not witten any test cases to test the apis
 - The nodes are running in the same physical machines. It is possible to run the nodes in another physical machine. Separate code, some kind of agent is needed.
+- The accessing webui or killing nodes or scaling must be done under strict access management, which must be added. Only master should be able to start or stop nodes.
+
 
 ## Config
 The config directory in the root acts as the configuration for the project. It contains a single `config.yaml` file,
