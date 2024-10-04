@@ -1,0 +1,9 @@
+service:
+  master:
+    port: 3000
+    node_port_initial: 3001
+  nodes:
+    min_count: 2
+    max_count: 5
+  logs:
+    dir: /tmp
